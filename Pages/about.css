@@ -24,11 +24,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(18deg, var(--background-color) 50%, var(--matte-black) 50%);
+    background-image: linear-gradient(25deg, var(--background-color) 50%, var(--matte-black) 50%);
 }
 header {
     color: transparent;
-    padding: 40px;
+    padding: 30px;
 }
 h1 {
     margin: 0;
@@ -36,39 +36,108 @@ h1 {
 }
 main {
     max-width: 800px;
-    margin: 20px auto;
+    margin: 0 auto;
     padding: 20px;
     background-color: #c2a7a7;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
+
+/* Style section headings */
+
 h2 {
     font-size: 24px;
-}
-ul {
-    list-style-type: disc;
-    padding-left: 20px;
-}
-.skill {
+    color: #333;
     margin-bottom: 10px;
 }
-.skill-label {
-    display: flex;
-    justify-content: space-between;
+
+/* Style paragraphs */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: black;
+}
+
+/* Style education entries */
+/* Style the education section */
+.education-list {
+    background-color: rgba(16, 134, 16, 0.884);
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+}
+
+/* Style the education heading */
+.education-list hr{
+    width: 23%;
+}
+.education-list li hr{
+    width: 60%;
+}
+.education-list h{
+    font-size: 34px;
     font-weight: bold;
 }
-.skill-bar {
-    width: 100%;
-    background-color: #ccc;
-    border-radius: 5px;
+.education-list h1{
+    font-size: 25px;
+    color: black;
+    padding-bottom: 10px;
 }
-.skill-level {
-    height: 20px;
-    text-align: right;
-    line-height: 20px;
-    color: #fff;
-    border-radius: 5px;
+.education-list h2{
+    font-size: 20px;
+    padding-top: 10px;
+    color: white;
 }
+
+/* Style education entries */
+.education-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.education-list li {
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+/* Add space between sections */
+section {
+    margin-bottom: 20px;
+}
+
+/* Style skills section */
+.skills {
+    margin-top: 20px;
+}
+
+/* Create a grid for skill list */
+.skill-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skill-list li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    width: calc(33.33% - 10px); /* Adjust the width as needed */
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: rgba(16, 134, 16, 0.884);
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+/* Style icons in the skill list */
+.skill-list i {
+    margin-right: 10px;
+    font-size: 20px;
+    color: #007bff; /* Change the color as desired */
+}
+/*list*/
 ul {
     padding: 20px;
 }

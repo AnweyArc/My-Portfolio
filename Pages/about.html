@@ -4,12 +4,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me, Education, and Skills</title>
     <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
 </head>
 <body>
     <div class='navigation'>
         <ul>
             <a href="../index.html"><h1>My Portfolio</h1></a>
-            <li><a href='.about.html'>About<span>/></span></a></li>
+            <li><a href='../Pages/about.html'>About<span>/></span></a></li>
             <li><a href='../Pages/works.html'>Works<span>/></span></a></li>
             <li><a href='../Pages/contacts.html'>Contacts<span>/></span></a></li>
         </ul>
@@ -18,52 +20,61 @@
         <h1>About Me, Education, and Skills</h1>
     </header>
     <main>
-        <section>
+        <section class="intro">
             <h2>About Me</h2>
-            <p>Hi, I'm [Your Name]. I'm a [Your Profession/Title] with a passion for [Your Interests/Hobbies]. I have [X] years of experience in [Your Field].</p>
+            <p>Hi, I'm John Anre Arcenas. I'm a 3rd Year I.T. Student with a passion for Technology and Web Development. I have 3 years of experience in the field of Information Technology!</p>
         </section>
         
-        <section>
-            <h2>Education</h2>
+        <section class="education-list">
+            <h>Education</h>
+            <hr>
             <ul>
                 <li>
-                    <strong>[Degree]</strong> in [Field of Study]<br>
-                    [University/Institution], [Graduation Year]
+                    <h1>High School and Senior High School</h1>
+                    <hr>
+                    <h2>Ina ng Buhay Catholic School, 2019</h2>
+                </li>
+                <li>
+                    <h1>College</h1>
+                    <hr>
+                    <h2>Our Lady of Fatima University, 2019-to-date</h2>
                 </li>
                 <!-- Add more education entries here -->
             </ul>
         </section>
 
-        <section>
+        <section class="skills">
             <h2>Skills</h2>
-            <div class="skill">
-                <div class="skill-label">
-                    <span>HTML</span>
-                    <span>80%</span>
-                </div>
-                <div class="skill-bar">
-                    <div class="skill-level" style="width: 80%; background-color: #007BFF;"> </div>
-                </div>
-            </div>
-            <div class="skill">
-                <div class="skill-label">
-                    <span>CSS</span>
-                    <span>70%</span>
-                </div>
-                <div class="skill-bar">
-                    <div class="skill-level" style="width: 70%; background-color: #007BFF;"></div>
-                </div>
-            </div>
-            <div class="skill">
-                <div class="skill-label">
-                    <span>JavaScript</span>
-                    <span>75%</span>
-                </div>
-                <div class="skill-bar">
-                    <div class="skill-level" style="width: 75%; background-color: #007BFF;"></div>
-                </div>
-            </div>
-            <!-- Add more skills here -->
+            <ul class="skill-list">
+                <li>
+                    <i class="fas fa-code"></i>
+                    Python
+                </li>
+                <li>
+                    <i class="fas fa-code"></i>
+                    C
+                </li>
+                <li>
+                    <i class="fab fa-html5"></i>
+                    HTML
+                </li>
+                <li>
+                    <i class="fab fa-react"></i>
+                    ReactJS
+                </li>
+                <li>
+                    <i class="fab fa-css3"></i>
+                    CSS
+                </li>
+                <li>
+                    <i class="fas fa-paint-brush"></i>
+                    Graphic Design
+                </li>
+                <li>
+                    <i class="fab fa-figma"></i>
+                    Figma
+                </li>
+            </ul>
         </section>
     </main>
 </body>
