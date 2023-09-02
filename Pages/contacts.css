@@ -1,0 +1,120 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: box;}
+    /*Fonts*/
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+    /*Colors*/
+    :root{
+        --main-white:#f0f0f0;
+        --cherry-red: #990011;
+        --off-white: #FCF6F5;
+        --matte-black: #343333;
+    }
+/* src/components/Contact.css */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+:root {
+    --background-color: #091619;
+    --main-white: #f0f0f0;
+    --cherry-red: #990011;
+    --off-white: #FCF6F5;
+    --matte-black: #343333;
+    --sub-title: #20bf55;
+  }
+
+.Contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 96vh;
+    background-image: linear-gradient(25deg, var(--background-color) 50%, var(--matte-black) 50%);
+    padding: 20px;
+}
+.social-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+  }
+  
+  .social-link {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    transition: transform 0.2s ease, color 0.2s ease;
+    
+  }
+  
+  .social-link a {
+    text-decoration: none;
+    font-size: 38px;
+    margin-left: 10px;
+    color: #333;
+    transition: color 0.2s ease;
+    color: var(--off-white);
+  }
+  
+  .social-link i {
+    font-size: 24px;
+    color: #0077b5;
+    transition: color 0.2s ease;
+  }
+  
+  .social-link:hover {
+    transform: translateX(5px);
+  }
+  
+  .social-link:hover a {
+    color: var(--sub-title);
+  }
+  
+  .social-link:hover i {
+    color: var(--sub-title);
+  }
+/*Navigation*/
+  :root {
+    --main-white:#f0f0f0;
+    --cherry-red: #990011;
+    --off-white: #FCF6F5;
+    --matte-black: #343333;
+    --blue: #00427d;
+}
+ul {
+    padding: 20px;
+}
+li {
+    list-style-type: none;
+    display: inline;
+    font-size: 2em;
+    padding: 10px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+}
+li a {
+    text-decoration: none;
+    color: var(--main-white);
+    float: right;
+    padding: 10px;
+}
+li a:hover {
+    color: var(--sub-title);
+}
+.navigation {
+    position: fixed;
+    width: 100%;
+    background: var(--off-white);
+    box-shadow: 0 2px 0 rgb(0 0 0 / 40%);
+    z-index: 10;
+    background-color: var(--matte-black);
+    align-items: center;
+}
+.navigation h1 {
+    color: var(--off-white);
+    font-size: 2em;
+    display: inline-block;
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+}
+.navigation span {
+    color: gray;
+}

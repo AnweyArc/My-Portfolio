@@ -1,0 +1,130 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: box;}
+    /*Fonts*/
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+    /*Colors*/
+    :root{
+        --main-white:#f0f0f0;
+        --cherry-red: #990011;
+        --off-white: #FCF6F5;
+        --matte-black: #343333;
+    }
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+:root {
+    --background-color: #091619;
+    --main-white: #f0f0f0;
+    --cherry-red: #990011;
+    --off-white: #FCF6F5;
+    --matte-black: #343333;
+    --sub-title: #20bf55;
+  } 
+  /* Style the container for the entire portfolio */
+  .portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 96vh;
+    background-image: linear-gradient(25deg, var(--background-color) 50%, var(--matte-black) 50%);
+    padding: 20px;
+  }
+  .portfolio h1{
+    color: var(--off-white);
+    padding-top: 150px;
+    padding-bottom: 150px;
+    font-size: 75px;
+  }
+  .portfolio-item img {
+    display: block;
+    width: 700px;
+    margin: 0 auto; /* Center the image horizontally */
+    border: 3px solid black; /* Add a border to the image */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the project descriptions */
+  .portfolio-item p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 10px;
+    font-family: 'Merriweather', serif; 
+    padding-top: 25px;/* Add some space between the image and description */
+  }
+  /* Style the portfolio item containers */
+  .portfolio-item {
+    width: 100%;
+    max-width: 800px;
+    background-color: #c2a7a7;
+    border: 4px solid #000000;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the project titles */
+  .portfolio-item h2 {
+    font-size: 34px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the project descriptions */
+  .portfolio-item p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Add hover effect to portfolio items */
+  .portfolio-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+/*Navigation*/
+:root {
+    --main-white:#f0f0f0;
+    --cherry-red: #990011;
+    --off-white: #FCF6F5;
+    --matte-black: #343333;
+    --blue: #00427d;
+}
+ul {
+    padding: 20px;
+}
+li {
+    list-style-type: none;
+    display: inline;
+    font-size: 2em;
+    padding: 10px;
+    font-weight: bold;
+    font-family: 'Merriweather', sans-serif;
+}
+li a {
+    text-decoration: none;
+    color: var(--main-white);
+    float: right;
+    padding: 10px;
+}
+li a:hover {
+    color: var(--sub-title);
+}
+.navigation {
+    position: fixed;
+    width: 100%;
+    background: var(--off-white);
+    box-shadow: 0 2px 0 rgb(0 0 0 / 40%);
+    z-index: 10;
+    background-color: var(--matte-black);
+    align-items: center;
+}
+.navigation h1 {
+    color: var(--off-white);
+    font-size: 2em;
+    display: inline-block;
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Merriweather', sans-serif;
+}
+.navigation span {
+    color: gray;
+}
