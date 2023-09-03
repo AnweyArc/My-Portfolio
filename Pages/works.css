@@ -87,6 +87,13 @@
     font-size: 34px;
     margin-bottom: 20px;
   }
+  .portfolio-item {
+    text-align: center; /* Center-align the contents within the container */
+  }
+
+figcaption {
+    font-style: italic;
+  }
   
   /* Style the project descriptions */
   .portfolio-item p {
