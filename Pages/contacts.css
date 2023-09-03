@@ -99,13 +99,13 @@ li a:hover {
     color: var(--sub-title);
 }
 .navigation {
-    position: fixed;
-    width: 100%;
-    background: var(--off-white);
-    box-shadow: 0 2px 0 rgb(0 0 0 / 40%);
-    z-index: 10;
-    background-color: var(--matte-black);
-    align-items: center;
+  position: fixed;
+  width: 100%;
+  background: var(--off-white);
+  box-shadow: 0 2px 0 rgba(214, 125, 125, 0.4);
+  z-index: 10;
+  background-color: #091619;
+  align-items: center;
 }
 .navigation h1 {
     color: var(--off-white);

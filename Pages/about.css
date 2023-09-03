@@ -38,7 +38,7 @@ main {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #c2a7a7;
+    background-image: url('../Components/SVG/about.svg');
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
 }
@@ -47,7 +47,7 @@ main {
 
 h2 {
     font-size: 24px;
-    color: #333;
+    color: black;
     margin-bottom: 10px;
 }
 
@@ -135,7 +135,7 @@ section {
 .skill-list i {
     margin-right: 10px;
     font-size: 20px;
-    color: #007bff; /* Change the color as desired */
+    color: #b3f00e; /* Change the color as desired */
 }
 /*list*/
 ul {
@@ -162,9 +162,9 @@ li a:hover {
     position: fixed;
     width: 100%;
     background: var(--off-white);
-    box-shadow: 0 2px 0 rgb(0 0 0 / 40%);
+    box-shadow: 0 2px 0 rgba(214, 125, 125, 0.4);
     z-index: 10;
-    background-color: var(--matte-black);
+    background-color: #091619;
     align-items: center;
 }
 .navigation h1 {
